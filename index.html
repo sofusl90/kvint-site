@@ -4,149 +4,56 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Kvint — Privacy Policy</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
 <style>
-  :root {
-    --bg: #161512;
-    --surface: #262421;
-    --text: #e5e1d6;
-    --muted: #9a948a;
-    --gold: #c9a14a;
-    --border: #4a443e;
-    --accent: #3893e8;
-  }
-  *, *::before, *::after { box-sizing: border-box; }
-  html { -webkit-text-size-adjust: 100%; }
   body {
-    margin: 0;
-    background: var(--bg);
-    color: var(--text);
-    font-family: "EB Garamond", Georgia, serif;
-    font-size: 19px;
-    line-height: 1.6;
-    -webkit-font-smoothing: antialiased;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    max-width: 720px;
+    margin: 2em auto;
+    padding: 0 1em;
+    line-height: 1.5;
+    color: #222;
   }
-  main {
-    max-width: 680px;
-    margin: 0 auto;
-    padding: 64px 24px 96px;
-  }
-  header {
-    text-align: center;
-    margin-bottom: 56px;
-  }
-  h1 {
-    font-family: "Cinzel", serif;
-    font-weight: 600;
-    letter-spacing: 0.08em;
-    font-size: 42px;
-    color: var(--text);
-    margin: 0 0 12px;
-  }
-  .subtitle {
-    color: var(--muted);
-    font-style: italic;
-    margin: 0;
-  }
-  .rule {
-    width: 64px;
-    height: 2px;
-    background: var(--gold);
-    margin: 24px auto 0;
-    border: none;
-  }
-  h2 {
-    font-family: "Cinzel", serif;
-    font-weight: 500;
-    letter-spacing: 0.05em;
-    font-size: 22px;
-    color: var(--gold);
-    margin: 48px 0 16px;
-  }
-  h3 {
-    font-family: "EB Garamond", Georgia, serif;
-    font-weight: 500;
-    font-style: italic;
-    font-size: 20px;
-    color: var(--text);
-    margin: 28px 0 8px;
-  }
-  p, li { color: var(--text); }
-  p { margin: 12px 0; }
-  ul { padding-left: 22px; }
-  li { margin: 6px 0; }
-  a {
-    color: var(--gold);
-    text-decoration: none;
-    border-bottom: 1px solid rgba(201, 161, 74, 0.35);
-    transition: border-color 0.15s ease;
-  }
-  a:hover { border-bottom-color: var(--gold); }
-  code {
-    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
-    font-size: 0.85em;
-    background: var(--surface);
-    color: var(--text);
-    padding: 1px 6px;
-    border-radius: 3px;
-    border: 1px solid var(--border);
-  }
-  footer {
-    margin-top: 72px;
-    padding-top: 24px;
-    border-top: 1px solid var(--border);
-    color: var(--muted);
-    font-size: 15px;
-    text-align: center;
-  }
+  h1 { font-size: 1.8em; }
+  h2 { font-size: 1.25em; margin-top: 2em; }
+  h3 { font-size: 1.05em; margin-top: 1.5em; }
+  code { font-size: 0.9em; }
 </style>
 </head>
 <body>
-<main>
-  <header>
-    <h1>KVINT</h1>
-    <p class="subtitle">Privacy Policy</p>
-    <hr class="rule">
-  </header>
 
-  <p><em>Effective date: 2026-05-03</em></p>
+<h1>Kvint — Privacy Policy</h1>
 
-  <p>Kvint does not collect, store, or transmit any personal data to the developer or any third-party server.</p>
+<p><em>Effective date: 2026-05-03</em></p>
 
-  <h2>What Kvint Handles</h2>
+<p>Kvint does not collect, store, or transmit any personal data to the developer or any third-party server.</p>
 
-  <h3>Display name</h3>
-  <p>When you use Kvint, the app generates a random display name for you (for example, <em>"brave-otter"</em>). You can change this name in Settings. Your display name is:</p>
-  <ul>
-    <li><strong>Stored locally</strong> on your device, in the app's private Documents folder.</li>
-    <li><strong>Visible to nearby players</strong> on your local Wi-Fi network via mDNS while you are in the lobby. It is never sent to a server or retained by anyone.</li>
-  </ul>
+<h2>What Kvint Handles</h2>
 
-  <h3>Networking</h3>
-  <p>Kvint uses <a href="https://github.com/n0-computer/iroh">iroh</a> for peer-to-peer connectivity. When you use the "Invite a friend" feature to play across different networks, iroh connects through number0's relay infrastructure (<code>relay.iroh.network</code>) to traverse NAT firewalls. In this process:</p>
-  <ul>
-    <li>Your <strong>IP address</strong> and an <strong>ephemeral, randomly-generated session ID</strong> are observable to number0's relay servers in order to establish the connection. The session ID is regenerated on every app launch and is not linked to your identity.</li>
-    <li>Your <strong>display name</strong> and <strong>game moves</strong> are end-to-end encrypted between you and your opponent, and are not visible to the relay.</li>
-    <li>number0's privacy policy applies to their relay infrastructure: <a href="https://www.n0.computer/privacy">https://www.n0.computer/privacy</a></li>
-  </ul>
-  <p>Game moves (board coordinates) are transmitted directly to your opponent over an encrypted connection. No move history is stored or uploaded anywhere.</p>
+<h3>Display name</h3>
+<p>When you use Kvint, the app generates a random display name for you (for example, "brave-otter"). You can change this name in Settings. Your display name is:</p>
+<ul>
+  <li>Stored locally on your device, in the app's private Documents folder.</li>
+  <li>Visible to nearby players on your local Wi-Fi network via mDNS while you are in the lobby. It is never sent to a server or retained by anyone.</li>
+</ul>
 
-  <h2>What Kvint Does Not Collect</h2>
-  <ul>
-    <li>No account, email address, or Apple ID</li>
-    <li>No persistent device identifiers</li>
-    <li>No analytics or crash reporting</li>
-    <li>No advertising data</li>
-  </ul>
+<h3>Networking</h3>
+<p>Kvint uses <a href="https://github.com/n0-computer/iroh">iroh</a> for peer-to-peer connectivity. When you use the "Invite a friend" feature to play across different networks, iroh connects through number0's relay infrastructure (<code>relay.iroh.network</code>) to traverse NAT firewalls. In this process:</p>
+<ul>
+  <li>Your IP address and an ephemeral, randomly-generated session ID are observable to number0's relay servers in order to establish the connection. The session ID is regenerated on every app launch and is not linked to your identity.</li>
+  <li>Your display name and game moves are end-to-end encrypted between you and your opponent, and are not visible to the relay.</li>
+</ul>
+<p>Game moves (board coordinates) are transmitted directly to your opponent over an encrypted connection. No move history is stored or uploaded anywhere.</p>
 
-  <h2>Contact</h2>
-  <p>Questions about this policy? Reach out: <a href="mailto:sofus@laubel.dk">sofus@laubel.dk</a></p>
+<h2>What Kvint Does Not Collect</h2>
+<ul>
+  <li>No account, email address, or Apple ID</li>
+  <li>No persistent device identifiers</li>
+  <li>No analytics or crash reporting</li>
+  <li>No advertising data</li>
+</ul>
 
-  <footer>
-    Kvint · made by Sofus Laubel
-  </footer>
-</main>
+<h2>Contact</h2>
+<p>Questions about this policy? Reach out: <a href="mailto:sofus@laubel.dk">sofus@laubel.dk</a></p>
+
 </body>
 </html>
